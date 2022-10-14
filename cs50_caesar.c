@@ -8,14 +8,14 @@ int main( int argc , string argv[])
 {
     if (argc != 2)
     {
-        printf("usage: ./caesar key ");
+        printf("usage: ./caesar key\n");
         return 1;
     }
     for (int i = 0; i < strlen (argv[1]); i++)
     {
         if (!isdigit(argv[1][i]))
         {
-            printf("usage: ./caesar key");
+            printf("usage: ./caesar key\n");
             return 1;
         }
 
@@ -43,13 +43,14 @@ int main( int argc , string argv[])
             {
                 printf("%c", (plaintext[j]));
             }
-                
         }
-	printf("\n");
-	return 0;
+        printf("\n");
+        return 0;
     }
 
 printf("\n");
+
 }
+
 
 
