@@ -19,28 +19,29 @@
 <br>
 
 ## :memo: &nbsp;&nbsp; Brief
-<p>The Caesar program consists of encrypted messages. To encrypt, it relies on shifting the letters according to the user's input value.
+<p>The Caesar program consists of encrypted messages. To encrypt, it relies on displacement the letters according to the user's input value.
 This input value called a key, which must be entered in the command line.</p>
 
 
 <br>
 
 ## :gem: &nbsp;&nbsp; Features
-- Asks the user for a number
-- Identifies if it is a valid number
-- Print the hash pyramid
+- Encrypt messages
+- Input the value on the command line
+- Request the plaintext (text to be encrypted)
+- Print the encrypted text (ciphertext)
 <br>
 
-## :bricks: &nbsp; Enter a positive integer between 1 and 8, inclusive
-<img align="center" height="auto" width="500" alt="Imprimindo a piramide" src="https://res.cloudinary.com/dxijjbby3/image/upload/v1665706963/Mario/mario1c_rvnapo.png"/>
+## :closed_lock_with_key: &nbsp; Print the encrypted text
+<img align="center" height="auto" width="600" alt="Imprimindo o texto criptografado" src="https://res.cloudinary.com/dxijjbby3/image/upload/v1665781296/Caesar/caesar1_y9wydo.png"/>
 <br>
 
-## :bricks: &nbsp; Enter invalid number
-<img align="center" height="auto" width="500" alt="Imprimindo a piramide" src="https://res.cloudinary.com/dxijjbby3/image/upload/v1665707642/Mario/mario2c_vyfer1.png"/>
+## :closed_lock_with_key: &nbsp; Invalid input value: no value or more than one value as key
+<img align="center" height="auto" width="600" alt="Imprimindo o texto criptografado" src="https://res.cloudinary.com/dxijjbby3/image/upload/v1665781297/Caesar/caesar2_r6ntuk.png"/>
 <br>
 
-## :bricks: &nbsp; Execution
-<img align="center" height="auto" width="500" alt="Imprimindo a piramide" src="https://res.cloudinary.com/dxijjbby3/image/upload/v1665709362/Mario/20221013_182743_1_online-video-cutter.com_1_f2ypor.gif"/>
+## :closed_lock_with_key: &nbsp; Execution
+<img align="center" height="auto" width="600" alt="Imprimindo o texto criptografado" src="https://res.cloudinary.com/dxijjbby3/image/upload/v1665782288/Caesar/caesarvideo10_online-video-cutter.com_h4m1qs.gif"/>
 <br>
 
 ## :computer:  &nbsp; Technologies
@@ -100,6 +101,4 @@ This project is under the MIT license. See the [LICENSE](https://github.com/lari
 
 
 
-# caesar-c
-:closed_lock_with_key:
-:memo:
+
